@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OffersFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:padding="8sp"
+                android:text="Recommended for you"
+                android:textSize="33sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_margin="8sp"
+                android:background="@drawable/round"
+                android:orientation="horizontal"
+                android:padding="0sp">
+
+                <ImageView
+                    android:layout_width="170sp"
+                    android:layout_height="100sp"
+                    android:background="@color/colorPrimary"
+                    android:padding="0dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100sp"
+                    android:background="@drawable/round"
+                    android:text="Get upto 40% off at IMG \nWorlds of Adventure"
+                    android:padding="18sp"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_margin="8sp"
+                android:background="@drawable/round"
+                android:orientation="horizontal"
+                android:padding="0sp">
+
+                <ImageView
+                    android:layout_width="170sp"
+                    android:layout_height="100sp"
+                    android:padding="0dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/cinema" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100sp"
+                    android:text="Weekend offer: Buy1 Get1 at\n Transfer Cinema"
+                    android:padding="18sp"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_margin="8sp"
+                android:background="@drawable/round"
+                android:orientation="horizontal"
+                android:padding="0sp">
+
+                <ImageView
+                    android:layout_width="170sp"
+                    android:layout_height="100sp"
+                    android:background="@color/colorPrimary"
+                    android:padding="0dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dhow" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100sp"
+                    android:text="2 hour Dhow Cruise for just 35Dhs"
+                    android:padding="18sp"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_margin="8sp"
+                android:background="@drawable/round"
+                android:orientation="horizontal"
+                android:padding="0sp">
+
+                <ImageView
+                    android:layout_width="170sp"
+                    android:layout_height="100sp"
+                    android:background="@color/colorPrimary"
+                    android:padding="0dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/spa" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100sp"
+                    android:text="Luxury 3 hour spa for 135Dhs"
+                    android:padding="18sp"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_margin="8sp"
+                android:background="@drawable/round"
+                android:orientation="horizontal"
+                android:padding="0sp">
+
+                <ImageView
+                    android:layout_width="170sp"
+                    android:layout_height="100sp"
+                    android:background="@color/colorPrimary"
+                    android:padding="0dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/brunch" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100sp"
+                    android:text="5 start Friday Brunch starting from 119"
+                    android:padding="18sp"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_margin="8sp"
+                android:background="@drawable/round"
+                android:orientation="horizontal"
+                android:padding="0sp">
+
+                <ImageView
+                    android:layout_width="170sp"
+                    android:layout_height="100sp"
+                    android:background="@color/colorPrimary"
+                    android:padding="0dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dreamland" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100sp"
+                    android:text="Aqua Park admission at 30% off"
+                    android:padding="18sp"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_margin="8sp"
+                android:background="@drawable/round"
+                android:orientation="horizontal"
+                android:padding="0sp">
+
+                <ImageView
+                    android:layout_width="170sp"
+                    android:layout_height="100sp"
+                    android:background="@color/colorPrimary"
+                    android:padding="0dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pool" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100sp"
+                    android:text="Pool access with 20% FandB discount at Lapita"
+                    android:padding="18sp"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
